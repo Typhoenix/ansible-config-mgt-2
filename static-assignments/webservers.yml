@@ -1,13 +1,5 @@
-<<<<<<< HEAD
 ---
 - hosts: webservers
   roles:
      - ../roles/webserver
-=======
-# ---
-
-# - hosts: uat-webservers
-#   roles:
-#      - ../webserver
->>>>>>> 450259dcaaeffdb27b10e003692fbc3a37490d2b
 
