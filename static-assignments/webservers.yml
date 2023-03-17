@@ -1,6 +1,5 @@
 ---
-
-- hosts: uat-webservers
+- hosts: webservers
   roles:
-     - ../webserver
+     - ../roles/webserver
 
