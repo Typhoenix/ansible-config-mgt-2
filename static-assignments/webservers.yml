@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: lb, webservers
   roles:
      - ../roles/webserver
 
