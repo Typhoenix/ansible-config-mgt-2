@@ -1,9 +1,5 @@
 ---
-- hosts: nginx
-  roles:
-     - nginxRole
-
-- hosts: db
+ - hosts: db
   roles:
      - mysql
 
