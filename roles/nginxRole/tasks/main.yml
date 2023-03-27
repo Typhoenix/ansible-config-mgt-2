@@ -2,7 +2,7 @@
 
 - name: Install nginx
   become: yes
-  apt:
+  yum:
     name: nginx
     state: present
 

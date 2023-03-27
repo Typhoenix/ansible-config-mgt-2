@@ -1,5 +1,10 @@
 ---
-- hosts: webservers
+- hosts: nginx
   roles:
-     - ../roles/webserver
+     - nginxRole
+
+- hosts: db
+  roles:
+     - mysql
+
 
