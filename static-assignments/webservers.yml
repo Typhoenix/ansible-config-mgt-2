@@ -1,10 +1,10 @@
 ---
 - hosts: nginx
   roles:
-     - ../roles/nginxRole
+     - nginxRole
 
-- hosts:db
+- hosts: db
   roles:
-     - ../roles/mysql
+     - mysql
 
 
