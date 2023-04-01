@@ -49,11 +49,11 @@
 
     - name: Download the artifact
       get_url:
-        url: http://3.82.235.199:8082/artifactory/pbl/
+        url: http://44.201.128.52:8082/artifactory/pbl/
         dest: /home/ec2-user/
         url_username: admin
-        url_password: cmVmdGtuOjAxOjE3MTE3MjkwNDU6ODljNUs4N2U2S1FxYlppbDhSaUNLZUN1ZW5z
-
+        url_password: cmVmdGtuOjAxOjE3MTE4NTY5NTk6UHZHNW5HWVF1akxRM3FvR2JJcW00d3dLQk5G
+        
     - name: unzip the artifacts
       ansible.builtin.unarchive:
        src: /home/ec2-user/php-todo
