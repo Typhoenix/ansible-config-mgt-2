@@ -1,5 +1,5 @@
 [sonarqube]
-172.31.29.143 ansible_ssh_user='ubuntu'
+172.31.95.134 ansible_ssh_user='ubuntu'
 
 [db]
 172.31.48.159 ansible_ssh_user='ubuntu'
